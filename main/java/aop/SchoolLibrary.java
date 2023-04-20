@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class SchoolLibrary extends Library{
-    @Override
+
     public void getBook() {
         System.out.println("Мы берем книгу из SchoolLibrary");
     }
